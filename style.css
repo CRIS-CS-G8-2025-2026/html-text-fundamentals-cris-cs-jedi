@@ -1,0 +1,62 @@
+body {
+  /* point to the image in your project directory */
+  background-image: url("./images/Hummus_Picture.jpg");
+  background-size: cover;          
+  background-position: center;     
+  background-repeat: no-repeat;    
+  background-attachment: fixed;  
+}
+
+/* Styling for the centered content box */
+.center-box {
+  width: 50%;
+  background-color: rgba(230, 158, 71, 0.8); 
+  margin: 4em auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(60, 37, 37, 0.2); 
+  border-radius: 15px; 
+  border: 6px solid rgba(0,0,0); 
+} 
+
+img {
+  border-radius: 1em;
+  border: 1px solid black;
+  width: 60%;
+}
+
+/* Styling for the hummus example image */
+.center-box img.hummus-example {
+  width: 80%;
+  display: block;
+  margin: 1rem auto;              
+  border-radius: 8px;
+  border: none;             
+}
+
+/* Styling for the hummus ingredients image */
+.center-box img.hummus-ingredients {
+  display: block;
+  margin: 1rem auto;              
+  border-radius: 8px;
+}
+
+/* Styling for the cooking hummus image */
+.center-box img.cooking-hummus {
+  display: block;
+  margin: 1rem auto;              
+  border-radius: 8px;
+}
+
+/* Styling for the refrigerator picture */
+.center-box img.refrigerator-picture {
+  display: block;
+  max-width: 100%;
+  margin: 1rem auto;              
+  border-radius: 8px;
+}
+
+/* Text styling */
+body {
+    font-size: 25px;
+    font-family: 'Arial', sans-serif; 
+}
